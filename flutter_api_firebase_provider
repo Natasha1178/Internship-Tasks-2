@@ -1,0 +1,57 @@
+This repository contains a sample Flutter project that grows across three weeks:
+name: flutter_api_firebase_provider
+description: Sample project for Weeks 4-6
+# Project structure (lib/)
+```
+lib/
+├─ main.dart
+├─ models/
+│ └─ user_model.dart
+├─ services/
+│ ├─ api_service.dart
+│ └─ firebase_service.dart
+├─ providers/
+│ ├─ auth_provider.dart
+│ └─ todo_provider.dart
+├─ screens/
+│ ├─ home_screen.dart # Week 4:  Three Things (Api List , User Api List, show Profile) 
+│ ├─ post_screen.dart # week 4: shows API list (JSONPlaceholder)
+│ ├─ User_list.dart # week 4: fetch users List with name image
+│ ├─ profile_screen.dart # Week 4/5: shows user profile
+│ ├─ login_screen.dart # Week 5
+│ ├─ signup_screen.dart # Week 5
+│ └─ task_list_screen.dart # Week 6: Provider usage
+└─ Routing_Screen.dart # Routing all project when we click any perticutar week (week wise show routing )
+└─ widgets/
+└─ loading_widget.dart
+```
+
+✅ Week 4: API Integration
+
+ Fetch & display JSONPlaceholder API data
+
+ User profile screen from API
+
+ Error handling & loading spinner
+
+✅ Week 5: Firebase
+
+ Firebase setup in Flutter project
+
+ Email/Password login & signup
+
+ Store user details in Firestore
+
+ Profile screen with user data
+
+✅ Week 6: Provider & Enhancements
+
+ Refactor To-Do app with Provider
+
+ Real-time task updates (add, delete, update)
+
+ Performance optimizations
+
+ Animations for UI/UX
+
+---
